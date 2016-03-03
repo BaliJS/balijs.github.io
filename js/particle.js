@@ -1,5 +1,5 @@
 function paintCanvas() {
-    ctx.fillStyle = "rgba(0,0,0,1)";
+    ctx.fillStyle = "rgba(239,216,76,1)";
     ctx.fillRect(0, 0, W, H)
 }
 
@@ -10,7 +10,7 @@ function Particle() {
     this.vy = -1 + Math.random() * 2;
     this.radius = 2;
     this.draw = function() {
-        ctx.fillStyle = "#FBB303";
+        ctx.fillStyle = "rgba(50,50,50,0.3)";
         ctx.beginPath();
         ctx.arc(this.x, this.y, this.radius, 0, Math.PI * 2, false);
         ctx.fill()
