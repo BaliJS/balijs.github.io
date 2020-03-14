@@ -17,7 +17,7 @@ $(window).scroll(function() {
 
 // jQuery for page scrolling feature - requires jQuery Easing plugin
 $(function() {
-    window.location.replace("http://www.balijs.com"); //Redirect to our new page
+    window.location.replace("https://www.balijs.org"); //Redirect to our new page
     
     $('a.page-scroll').bind('click', function(event) {
         var $anchor = $(this);
